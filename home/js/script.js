@@ -27,4 +27,8 @@ $(document).ready(function(){
 
 	});
 
+	$("#wrapper").on("click", '.box', function(){
+		console.log("box clicked");
+	});
+
 });
