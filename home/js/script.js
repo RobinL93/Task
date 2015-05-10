@@ -47,7 +47,6 @@ $(document).ready(function(){
 				url: "http://localhost/task_manager/v1/tasks/" + taskBoxId,
 				method: "DELETE",
 				dataType: "json",
-				cache: false,
 				headers: {
 				'Authorization' : '1f324bafd2df1db785bd413ea5c120c3'
 				},
@@ -69,6 +68,33 @@ $(document).ready(function(){
 		
 		
 
+		var taskBox = $(this).parents('.taskBox');
+		var taskBoxId = taskBox.attr('id');
+		
+		/*
+		$.ajax({
+			url: "http://localhost/task_manager/v1/tasks/" + taskBoxId,
+			method: "PUT",
+			dataType: "json",
+			data: {
+				"task" : "YO",
+				"status" : "0"
+			},
+			headers: {
+				'Authorization' : '1f324bafd2df1db785bd413ea5c120c3'
+			},
+
+			success: function(){
+				console.log("success edit");
+			},
+			error: function(){
+				console.log("error edit");
+			}
+
+
+		});
+		*/
+		
 	});
 
 });
