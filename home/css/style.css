@@ -17,6 +17,7 @@ body {
 	background-color: #f2f2f2;
 	border-bottom-right-radius: 20px;
 	border-bottom-left-radius: 20px;
+	margin-bottom: 15px;
 }
 
 #wrapper::after {
@@ -25,7 +26,7 @@ body {
 	clear: both;
 }
 
-.box {
+.taskBox {
 	width: 45%;
 	margin: 2.5%;
 	padding: 15px;
@@ -38,21 +39,60 @@ body {
 	position: relative;
 }
 
-.box .taskText, .box .createdAt {
+.taskBox .taskText, .taskBox .taskFooter {
 	text-align: center;
 	line-height: 1.5;
 	font-size: 1.1em;
 }
 
-.box .taskText {
+.taskBox .taskText {
 	margin-top: 10px;
 }
 
-.box .createdAt{
+.taskBox .taskFooter{
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	right: 0;
-	margin-left: auto;
-	margin-right: auto;
+	width: 100%;
+}
+
+.taskBox .taskFooter .createdAt {
+	float: left;
+	margin-left: 10px;
+}
+
+.taskBox .taskFooter .taskOptions {
+	float: right;
+	margin-right: 10px;
+}
+
+.taskOptions > i:hover {
+	cursor: pointer;
+}
+
+.taskOptions > i {
+	margin-right: 5px;
+}
+
+.taskOptions .delete {
+	font-size: 1.2em;
+}
+
+.infoBar {
+	width: 100%;
+	position: fixed;
+	height: 50px;
+	top: 0;
+	left: 0;
+	font-family: "Varela Round", sans-serif;
+	background-color: white;
+	z-index: 999;
+	color: black;
+	border: 1px solid red;
+	text-align: center;
+	display: none;
+}
+
+.infoBar p {
+	margin-top: 10px;
 }
