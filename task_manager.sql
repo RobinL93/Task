@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Värd: 127.0.0.1
--- Tid vid skapande: 10 maj 2015 kl 12:59
+-- Tid vid skapande: 10 maj 2015 kl 16:24
 -- Serverversion: 5.6.24
 -- PHP-version: 5.6.8
 
@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `tasks` (
   `task` text NOT NULL,
   `status` int(1) NOT NULL DEFAULT '0',
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=150 DEFAULT CHARSET=latin1;
 
 --
 -- Dumpning av Data i tabell `tasks`
@@ -39,8 +39,33 @@ CREATE TABLE IF NOT EXISTS `tasks` (
 
 INSERT INTO `tasks` (`id`, `task`, `status`, `created_at`) VALUES
 (1, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit nisi, vulputate a quam eget, dignissim fermentum dolor.  Maecenas vulputate magna sed venenatis tincidun', 1, '2015-05-10 10:11:50'),
-(2, 'This is a text yo...', 0, '2015-05-10 10:19:41'),
-(3, 'And this is another text...', 0, '2015-05-10 10:19:54');
+(4, 'More etetetetetetexttexttasdasdasdasdasdasdad', 0, '2015-05-10 13:16:52'),
+(30, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 13:43:27'),
+(87, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:02:11'),
+(110, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:18:15'),
+(113, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:18:16'),
+(119, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:18:17'),
+(126, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:19:11'),
+(129, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:19:12'),
+(130, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:19:12'),
+(131, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:19:12'),
+(132, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:19:12'),
+(133, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:19:12'),
+(134, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:19:12'),
+(135, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:19:13'),
+(136, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:19:13'),
+(138, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:19:13'),
+(139, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:19:13'),
+(140, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:19:14'),
+(141, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:19:14'),
+(142, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:19:14'),
+(143, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:19:14'),
+(144, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:19:14'),
+(145, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:23:43'),
+(146, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:23:43'),
+(147, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:23:44'),
+(148, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:23:44'),
+(149, 'Donec eleifend vestibulum leo, at consequat massa vehicula nec. Sed quam ex, consequat sit amet eleifend in, interdum sit amet turpis. Quisque auctor nulla enim, vitae pellentesque diam sollicitudin ac.', 0, '2015-05-10 14:23:45');
 
 -- --------------------------------------------------------
 
@@ -77,7 +102,7 @@ CREATE TABLE IF NOT EXISTS `user_tasks` (
   `id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
   `task_id` int(11) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=150 DEFAULT CHARSET=latin1;
 
 --
 -- Dumpning av Data i tabell `user_tasks`
@@ -85,8 +110,33 @@ CREATE TABLE IF NOT EXISTS `user_tasks` (
 
 INSERT INTO `user_tasks` (`id`, `user_id`, `task_id`) VALUES
 (1, 3, 1),
-(2, 3, 2),
-(3, 3, 3);
+(4, 3, 4),
+(30, 3, 30),
+(87, 3, 87),
+(110, 3, 110),
+(113, 3, 113),
+(119, 3, 119),
+(126, 3, 126),
+(129, 3, 129),
+(130, 3, 130),
+(131, 3, 131),
+(132, 3, 132),
+(133, 3, 133),
+(134, 3, 134),
+(135, 3, 135),
+(136, 3, 136),
+(138, 3, 138),
+(139, 3, 139),
+(140, 3, 140),
+(141, 3, 141),
+(142, 3, 142),
+(143, 3, 143),
+(144, 3, 144),
+(145, 3, 145),
+(146, 3, 146),
+(147, 3, 147),
+(148, 3, 148),
+(149, 3, 149);
 
 --
 -- Index för dumpade tabeller
@@ -118,7 +168,7 @@ ALTER TABLE `user_tasks`
 -- AUTO_INCREMENT för tabell `tasks`
 --
 ALTER TABLE `tasks`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=150;
 --
 -- AUTO_INCREMENT för tabell `users`
 --
@@ -128,7 +178,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT för tabell `user_tasks`
 --
 ALTER TABLE `user_tasks`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=150;
 --
 -- Restriktioner för dumpade tabeller
 --
